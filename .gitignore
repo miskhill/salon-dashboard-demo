@@ -1,0 +1,32 @@
+# Node dependencies
+node_modules/
+
+dist/
+tmp/
+
+# Ember build artifacts
+/public/assets/
+/assets/
+/.sass-cache
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Coverage output
+coverage/
+
+# Misc
+.env
+.ember-cli

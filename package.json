@@ -1,0 +1,60 @@
+{
+  "name": "salon-dashboard-demo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Simple Ember dashboard demo with TypeScript and Tailwind.",
+  "repository": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "ember serve",
+    "build": "ember build",
+    "test": "ember test",
+    "lint": "npm-run-all --aggregate-output --continue-on-error lint:*",
+    "lint:hbs": "ember-template-lint .",
+    "lint:js": "eslint . --ext .js,.ts"
+  },
+  "devDependencies": {
+    "@ember/optional-features": "^2.1.0",
+    "@glimmer/component": "^1.1.2",
+    "@glimmer/tracking": "^1.1.2",
+    "@types/qunit": "^2.19.10",
+    "autoprefixer": "^10.4.16",
+    "broccoli-asset-rev": "^3.0.0",
+    "ember-auto-import": "^2.7.2",
+    "ember-cli": "~5.7.0",
+    "ember-cli-app-version": "^6.0.0",
+    "ember-cli-babel": "^8.2.0",
+    "ember-cli-dependency-checker": "^3.3.2",
+    "ember-cli-htmlbars": "^7.0.0",
+    "ember-cli-inject-live-reload": "^2.1.0",
+    "ember-cli-postcss": "^8.1.0",
+    "ember-cli-typescript": "^5.3.0",
+    "ember-data": "~5.4.0",
+    "ember-fetch": "^8.1.2",
+    "ember-load-initializers": "^2.1.2",
+    "ember-page-title": "^8.1.0",
+    "ember-qunit": "^7.0.0",
+    "ember-resolver": "^12.0.0",
+    "ember-source": "~5.7.0",
+    "ember-template-lint": "^6.0.0",
+    "ember-try": "^3.0.0",
+    "eslint": "^9.4.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-ember": "^12.1.1",
+    "eslint-plugin-n": "^17.2.1",
+    "eslint-plugin-qunit": "^8.2.5",
+    "loader.js": "^4.7.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.35",
+    "qunit": "^2.20.0",
+    "tailwindcss": "^3.4.3",
+    "tracked-built-ins": "^3.1.1",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": "^18.19.0 || >= 20.1.0"
+  },
+  "ember": {
+    "edition": "octane"
+  }
+}
